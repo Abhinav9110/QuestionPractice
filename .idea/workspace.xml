@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a273a225-4150-436c-a2c3-162a1e06c2cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CampusMonk/CountDigits.java" afterDir="false" />
+    <list default="true" id="a273a225-4150-436c-a2c3-162a1e06c2cd" name="Changes" comment="count Digits of number">
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/ArmstrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/CountOddDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/DivisorOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/FactorialOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/LargestDingitInNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/PerfectNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CampusMonk/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CampusMonk/CountDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CampusMonk/CountDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +35,24 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="33hNIEhGRgMHjquhHNJ2X5OTRPQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArmstrongNumber.executor": "Run",
     "Application.CountDigits.executor": "Run",
+    "Application.CountOddDigits.executor": "Run",
+    "Application.DivisorOfNumber.executor": "Run",
+    "Application.FactorialOfNumber.executor": "Run",
+    "Application.LargestDingitInNumber.executor": "Run",
+    "Application.PalindromeNumber.executor": "Run",
+    "Application.PerfectNumber.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -42,9 +61,61 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="CountDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CampusMonk.CountDigits" />
+  <component name="RunManager" selected="Application.PerfectNumber">
+    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CampusMonk.ArmstrongNumber" />
+      <module name="QuestionPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CampusMonk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivisorOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CampusMonk.DivisorOfNumber" />
+      <module name="QuestionPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CampusMonk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CampusMonk.FactorialOfNumber" />
+      <module name="QuestionPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CampusMonk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestDingitInNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CampusMonk.LargestDingitInNumber" />
+      <module name="QuestionPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CampusMonk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CampusMonk.PerfectNumber" />
       <module name="QuestionPractice" />
       <extension name="coverage">
         <pattern>
@@ -58,7 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDigits" />
+        <item itemvalue="Application.PerfectNumber" />
+        <item itemvalue="Application.ArmstrongNumber" />
+        <item itemvalue="Application.FactorialOfNumber" />
+        <item itemvalue="Application.DivisorOfNumber" />
+        <item itemvalue="Application.LargestDingitInNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +146,20 @@
       <option name="presentableId" value="Default" />
       <updated>1759765264080</updated>
     </task>
+    <task id="LOCAL-00001" summary="count Digits of number">
+      <option name="closed" value="true" />
+      <created>1761566052752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761566052752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="count Digits of number" />
+    <option name="LAST_COMMIT_MESSAGE" value="count Digits of number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
